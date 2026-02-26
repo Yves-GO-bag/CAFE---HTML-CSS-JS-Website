@@ -82,17 +82,60 @@ a {
 }
 
 /*----MAIN-CONTAINER*/
+
 .hero-main-container {
     height: 100%;
+    display: flex;
+    justify-content: space-around;
 }
 
 /*----ITEM-BOXES*/
 .item-box {
-    height: 100%;
+    height: 75vh;
+    width: 100%;
     display: flex;
     flex-direction: column;
     justify-content: center;
+    align-items: center;
 }
 
 /*----HERO-LEFT-ITEM*/
+.left-item h3 {
+  font-size: 2rem;
+}
 
+.mini-video {
+  height: 60%;
+  width: 100%;
+  border-radius: 15px;
+}
+
+/*-----HERO-CENTER-ITEM*/
+.center-item img {
+  height: 70%;
+}
+
+/*----HERO-RIGHT-ITEM*/
+
+.right-item {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-end;
+}
+
+.right-item h1 {
+  font-size: 4rem;
+}
+
+.hero-btn {
+  padding: 15px;
+  border-radius: 10px;
+  display: flex;
+  justify-content: center;
+  cursor: pointer;
+  background-color: black;
+  color: white;
+  width: 20rem;
+  margin-top: 1.5rem;
+  font-size: 1.5rem;
+}
